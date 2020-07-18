@@ -17,9 +17,8 @@ export default {
     return {
       items: [
         { title: 'top', path: '/' },
-        { title: 'profile', path: '/profile' },
-        { title: 'skills', path: '/skills' },
-        { title: 'outputs', path: '/outputs' }
+        { title: 'git', path: '/git' },
+        { title: 'you-tube', path: '/you-tube' }
       ]
     }
   }
