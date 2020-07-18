@@ -11,7 +11,7 @@
     </ul>
 
       <el-menu :default-active="activeIndex" mode="horizontal" router>
-      <el-menu-item index="home" :route="{ name:'home' , path: '/home-page/home' }">Home</el-menu-item>
+      <el-menu-item index="home" :route="{ name:'home' , path: '/home-page/' }">Home</el-menu-item>
       <el-menu-item index=about :route="{ name:'about' , path: '/home-page/about' }">About</el-menu-item>
     </el-menu>
     <router-view />

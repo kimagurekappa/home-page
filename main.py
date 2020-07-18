@@ -8,5 +8,11 @@ app = Flask(__name__, static_folder='../home-page/docs/static', template_folder=
 def index(path):
     return render_template('index.html')
 
+
+@app.route('/home-page/about')
+def index2():
+    name = "ブラウザバックを一回押した後、ページを更新して！Kappa"
+    return name
+
 if __name__ == '__main__':
     app.run()
