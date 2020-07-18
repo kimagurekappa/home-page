@@ -1,16 +1,27 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
+import About from '@/components/About'
 
 Vue.use(Router)
 
 export default new Router({
-  mode: 'history',  // 追記 URLに#が入るのを防止
+  mode: 'history', 
   routes: [
     {
-        path: '/hello',
-        name: 'HelloWorld',
-        component: HelloWorld
+      path: '/',
+      name: 'HelloWorld',
+      component: HelloWorld
+    },
+    {
+      path: '/home',
+      name: 'home',
+      component: HelloWorld
+    },
+    {
+      path: '/about',
+      name: 'about',
+      component: About
     }
   ]
 })
