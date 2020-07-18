@@ -1,5 +1,17 @@
 <template>
-  <div>
+  <div id="app">
     <h3>工事中</h3>
   </div>
 </template>
+
+<script>
+
+
+export default {
+  data () {
+    return {
+      msg: 'home page for KimagureKappa!'
+    }
+  }
+}
+</script>
