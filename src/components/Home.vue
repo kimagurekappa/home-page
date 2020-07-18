@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h3>ホーム</h3>
+    <h3>Home</h3>
   </div>
 </template>
 
