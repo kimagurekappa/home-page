@@ -1,15 +1,18 @@
 <template>
   <div id="app">
     <h1>{{ msg }}</h1>
-    <h3>Git Hub へのアクセス</h3>
-    <ul>
-      <li><a href="https://github.com/kimagurekappa" target="_blank" rel="noopener">Git Hub</a></li>
-    </ul>
     <h3>You Tube へのアクセス</h3>
     <ul>
       <li><a href="https://www.youtube.com/channel/UC3M75vH5Y0kizWKaT2BnNyQ?view_as=subscriber" target="_blank" rel="noopener">You Tube</a></li>
     </ul>
-
+    <h3>Qiita へのアクセス</h3>
+    <ul>
+      <li><a href="https://qiita.com/kimagurekappa" target="_blank" rel="noopener">Qiita</a></li>
+    </ul>
+    <h3>Git Hub へのアクセス</h3>
+    <ul>
+      <li><a href="https://github.com/kimagurekappa" target="_blank" rel="noopener">Git Hub</a></li>
+    </ul>
       <el-menu :default-active="activeIndex" mode="horizontal" router>
       <el-menu-item index="home" :route="{ name:'home' , path: '/home-page/' }">Home</el-menu-item>
       <el-menu-item index=about :route="{ name:'about' , path: '/home-page/' }">About</el-menu-item>
