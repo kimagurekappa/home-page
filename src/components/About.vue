@@ -1,7 +1,6 @@
 <template>
   <div id="app">
-    <h3>工事中</h3>
-    <h3>ページの更新は Home でして！</h3>
+    <h3>ページの更新をすると Home に戻るよ！</h3>
   </div>
 </template>
 
