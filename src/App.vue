@@ -3,7 +3,7 @@
     <h1>{{ msg }}</h1>
     <h3>You Tube へのアクセス</h3>
     <ul>
-      <li><a href="https://www.youtube.com/channel/UC3M75vH5Y0kizWKaT2BnNyQ?view_as=subscriber" target="_blank" rel="noopener">You Tube</a></li>
+      <li><a href="https://www.youtube.com/channel/UC3M75vH5Y0kizWKaT2BnNyQ" target="_blank" rel="noopener">You Tube</a></li>
     </ul>
     <h3>Qiita へのアクセス</h3>
     <ul>
